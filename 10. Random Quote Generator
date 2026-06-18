@@ -1,0 +1,10 @@
+const quotes = [
+    "Keep learning.",
+    "Never stop coding.",
+    "Practice makes perfect.",
+    "JavaScript is powerful.",
+    "Consistency wins."
+];
+
+const randomIndex = Math.floor(Math.random() * quotes.length);
+console.log(quotes[randomIndex]);
