@@ -1,0 +1,12 @@
+const randomNumber = Math.floor(Math.random() * 10) + 1;
+const guess = 7;
+
+if (guess === randomNumber) {
+    console.log("Correct Guess!");
+} else if (guess > randomNumber) {
+    console.log("Too High!");
+} else {
+    console.log("Too Low!");
+}
+
+console.log("Number was:", randomNumber);
