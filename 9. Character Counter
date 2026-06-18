@@ -1,0 +1,4 @@
+const text = "JavaScript is awesome!";
+console.log("Characters:", text.length);
+const words = text.trim().split(" ");
+console.log("Words:", words.length);
