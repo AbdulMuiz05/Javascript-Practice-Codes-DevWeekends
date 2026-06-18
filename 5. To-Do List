@@ -1,0 +1,17 @@
+const tasks = [];
+
+function addTask(task) {
+    tasks.push(task);
+}
+
+function removeTask(task) {
+    const index = tasks.indexOf(task);
+    if (index !== -1) {
+        tasks.splice(index, 1);
+    }
+}
+
+addTask("Study JavaScript");
+addTask("Complete Assignment");
+removeTask("Study JavaScript");
+console.log(tasks);
