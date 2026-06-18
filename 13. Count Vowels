@@ -1,0 +1,9 @@
+const str = "JavaScript";
+let count = 0;
+
+for (const char of str.toLowerCase()) {
+    if ("aeiou".includes(char)) {
+        count++;
+    }
+}
+console.log(count);
